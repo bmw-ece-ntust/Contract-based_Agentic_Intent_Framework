@@ -1,0 +1,20 @@
+########################## LLM parameters  ##########################
+## Set model endpoints for default API Catalog setup (no GPU needed)
+## Ensure NIM_mode is set to False to use API Catalog
+
+profiling:
+  llm_model: "./qwen3-4b"
+  llm_temp: 0.6
+  llm_top_p: 0.95
+  llm_max_tokens: 512
+  message:
+    - enable_thinking: False
+
+evaluator:
+  llm_model: "nvidia/llama-3.3-nemotron-super-49b-v1.5"
+  llm_temp: 0.6
+  llm_top_p: 0.95
+  llm_max_tokens: 65536
+  message:
+    - role: system
+      content: "/think"

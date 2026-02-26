@@ -1,0 +1,15 @@
+langchain==0.3.25
+langchain-community==0.3.23
+langchain-core==0.3.58
+langchain-nvidia-ai-endpoints==0.3.10
+langgraph==0.2.39
+pydantic==2.9.2
+pyyaml==6.0.2
+langsmith==0.2.8
+requests>=2.31.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.4.0
+Flask==3.0.0
+neo4j>=6.0.2
+streamlit == 1.52.1

@@ -1,0 +1,1604 @@
+[
+  {
+    "id": "sla_slice_01",
+    "conversation": [
+      "In slice ID 1 of cell 1, increase dlthroughput by 5% in 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_02",
+    "conversation": [
+      "Boost slice 1 (cell 1) downlink throughput by 5% within 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_03",
+    "conversation": [
+      "Aim for a 5% uplift in dlThroughput for cell 1 slice 1 over the 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_04",
+    "conversation": [
+      "Achieve a 5% increase in downlink throughput for slice 1 of cell 1 within 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_05",
+    "conversation": [
+      "Raise dlThroughput in cell 1 slice 1 by five percent across 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_06",
+    "conversation": [
+      "Target a five percent DL throughput improvement for slice 1 (cell 1) in 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_07",
+    "conversation": [
+      "Secure a 5% gain in downlink throughput for cell 1 slice 1 within 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_08",
+    "conversation": [
+      "Improve cell 1 slice 1 DL throughput by 5% over the next 10 minutes period."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_09",
+    "conversation": [
+      "Increase downlink throughput by five percent for slice 1 of cell 1 over 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_10",
+    "conversation": [
+      "Obtain a 5% DL throughput rise for cell 1 slice 1 during the 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_11",
+    "conversation": [
+      "Deliver a five percent boost in DL throughput for slice 1 under cell 1 in 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_12",
+    "conversation": [
+      "Plan a 5% enhancement to downlink throughput for cell 1 slice 1 within a 10 minutes span."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_13",
+    "conversation": [
+      "Reach a 5% uptick in dlThroughput for slice 1 of cell 1 over the 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_14",
+    "conversation": [
+      "Realize a five percent dlThroughput improvement in cell 1 slice 1 within a ten minutes"
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_15",
+    "conversation": [
+      "Attain a 5% increase of dlThroughput for slice 1 (cell 1) across a ten minutes window."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_16",
+    "conversation": [
+      "Effect a five percent rise in downlink throughput for cell 1's slice 1 within ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_17",
+    "conversation": [
+      "Drive a 5% DL throughput elevation for slice 1 in cell 1 over ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_18",
+    "conversation": [
+      "Implement a 5% uplift of dlThroughput in cell 1 slice 1 during the ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_19",
+    "conversation": [
+      "Seek a five percent increase in DL throughput for cell 1 slice 1 in the ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_20",
+    "conversation": [
+      "Execute a 5% dlThroughput gain for slice ID 1 of cell 1 over a ten minutes interval."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  }
+  ,
+  {
+    "id": "sla_slice_21",
+    "conversation": [
+      "Within 10 minutes, raise cell 1's slice 1 downlink throughput by 5%."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_22",
+    "conversation": [
+      "Increase DL throughput by 5% for slice 1 in cell 1 in ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_23",
+    "conversation": [
+      "Achieve a 5 percent uplift in downlink throughput on cell 1 slice 1 within 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_24",
+    "conversation": [
+      "Target a 5% rise in dlThroughput for slice 1 of cell 1 over a 10-minute window."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_25",
+    "conversation": [
+      "Deliver a five percent improvement to DL throughput for cell 1's slice 1 in the next 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_26",
+    "conversation": [
+      "Secure a 5% gain in downlink data rate for slice 1 (cell 1) within ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_27",
+    "conversation": [
+      "Aim to boost dlThroughput by 5% on cell 1, slice 1 during the upcoming 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_28",
+    "conversation": [
+      "Realize a 5% enhancement of downlink throughput for slice ID 1 in cell 1 across a ten-minute interval."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_29",
+    "conversation": [
+      "Obtain a five percent increase in DL throughput for the first slice of cell 1 over ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_30",
+    "conversation": [
+      "Effect a 5% rise in downlink throughput on slice 1 under cell 1 within 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_31",
+    "conversation": [
+      "Implement a five percent DL throughput uplift for cell 1 slice 1 inside a 10-minute span."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_32",
+    "conversation": [
+      "Drive a 5% increase in downlink throughput for slice 1 of cell 1 by the end of 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_33",
+    "conversation": [
+      "Pursue a 5% bump to dlThroughput for cell 1’s slice 1 during a ten-minute period."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_34",
+    "conversation": [
+      "Ensure downlink throughput is 5% higher on slice 1 (cell 1) within 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_35",
+    "conversation": [
+      "Bring about a five percent improvement in DL throughput for cell 1 slice 1 over 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_36",
+    "conversation": [
+      "Reach a 5% elevation of downlink throughput for slice 1 in cell 1 within the next ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_37",
+    "conversation": [
+      "Record a 5% uplift in dlThroughput for cell 1’s slice 1 across a 10-minute window."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_38",
+    "conversation": [
+      "Set a 5% increase target for downlink throughput on slice 1 of cell 1, to be met in 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_39",
+    "conversation": [
+      "Produce a 5% rise in DL throughput for slice 1 (cell 1) over the ten-minute period."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_40",
+    "conversation": [
+      "Attain a five percent boost in downlink throughput on cell 1 slice 1 within 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_41",
+    "conversation": [
+      "Elevate dlThroughput by 5% for slice 1 of cell 1 in ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_42",
+    "conversation": [
+      "Enhance slice 1 (cell 1) downlink throughput by five percent across the next 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_43",
+    "conversation": [
+      "Lift DL throughput 5% on cell 1’s slice 1 during a ten-minute span."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_44",
+    "conversation": [
+      "Bump downlink throughput up by 5% for slice 1 under cell 1 within 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_45",
+    "conversation": [
+      "Scale dlThroughput by five percent for cell 1 slice 1 over a 10-minute interval."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_46",
+    "conversation": [
+      "Step up downlink throughput by 5% on slice 1 of cell 1 within ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_47",
+    "conversation": [
+      "Raise the downlink performance by 5% for slice 1 (cell 1) in 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_48",
+    "conversation": [
+      "Improve the downlink data rate by five percent on cell 1 slice 1 over ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_49",
+    "conversation": [
+      "Achieve a 5% DL throughput gain for slice 1 in cell 1 during the next 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_50",
+    "conversation": [
+      "Secure a five percent rise in dlThroughput for slice 1 of cell 1 within a ten-minute window."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_51",
+    "conversation": [
+      "Target a 5% enhancement in downlink throughput on cell 1’s slice 1 over the forthcoming 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_52",
+    "conversation": [
+      "Deliver a 5% increase to DL throughput for slice 1 (cell 1) by the 10-minute mark."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_53",
+    "conversation": [
+      "Realize a five percent uptick in downlink throughput at slice 1 of cell 1 inside ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_54",
+    "conversation": [
+      "Obtain a 5% improvement in dlThroughput for the first slice in cell 1 across a 10-minute period."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_55",
+    "conversation": [
+      "Effect a five percent elevation of DL throughput for cell 1 slice 1 within 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_56",
+    "conversation": [
+      "Implement a 5% rise in downlink throughput for slice 1 under cell 1 during a ten-minute interval."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_57",
+    "conversation": [
+      "Drive DL throughput up by five percent for slice 1 (cell 1) in the next 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_58",
+    "conversation": [
+      "Ensure a 5% increase in downlink throughput on cell 1 slice 1 over ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_59",
+    "conversation": [
+      "Pursue a five percent boost to dlThroughput for slice 1 of cell 1 within a 10-minute span."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_60",
+    "conversation": [
+      "Reach a 5% gain in downlink throughput for slice 1 in cell 1 inside 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  }
+  ,
+  {
+    "id": "sla_slice_61",
+    "conversation": [
+      "Within 10 minutes, push slice 1 of cell 1 downlink throughput up by 5%."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_62",
+    "conversation": [
+      "Make dlThroughput 5% higher on cell 1, slice 1 in 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_63",
+    "conversation": [
+      "In cell 1's slice 1, deliver a 5% increase to downlink throughput within 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_64",
+    "conversation": [
+      "Raise DL throughput for slice 1 (cell 1) by 5% over a 10-minute interval."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_65",
+    "conversation": [
+      "Achieve a 5% enhancement of dlThroughput on cell 1 slice 1 in ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_66",
+    "conversation": [
+      "Target a five percent bump in downlink throughput for slice 1 under cell 1 within 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_67",
+    "conversation": [
+      "Secure a 5% uplift to DL throughput on slice 1 of cell 1 in the next ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_68",
+    "conversation": [
+      "Hit a 5% rise in dlThroughput for cell 1’s slice 1 inside 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_69",
+    "conversation": [
+      "Ensure downlink throughput increases by 5% on slice 1 (cell 1) within 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_70",
+    "conversation": [
+      "Produce a five percent gain in DL throughput for slice 1 of cell 1 over ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_71",
+    "conversation": [
+      "Realize a 5% improvement in downlink data rate on cell 1, slice 1 in 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_72",
+    "conversation": [
+      "By the 10-minute mark, elevate dlThroughput 5% for slice 1 in cell 1."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_73",
+    "conversation": [
+      "Deliver a 5% rise in DL throughput on slice ID 1 of cell 1 within ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_74",
+    "conversation": [
+      "Attain a five percent increase of downlink throughput for cell 1’s first slice over a 10-minute period."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_75",
+    "conversation": [
+      "Drive a 5% increase to dlThroughput for slice 1 (cell 1) in ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_76",
+    "conversation": [
+      "Scale downlink throughput by 5% on cell 1 slice 1 in the next 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_77",
+    "conversation": [
+      "Record a 5% improvement in DL throughput for slice 1 under cell 1 after ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_78",
+    "conversation": [
+      "Reach a five percent elevation in dlThroughput for cell 1 slice 1 within 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_79",
+    "conversation": [
+      "Boost downlink throughput 5% for slice 1 of cell 1 across a ten-minute window."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_80",
+    "conversation": [
+      "Obtain a 5% increase in DL throughput on cell 1’s slice 1 in 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_81",
+    "conversation": [
+      "Set a target to lift dlThroughput by five percent for slice 1 (cell 1) within ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_82",
+    "conversation": [
+      "Effect a 5% rise in downlink throughput for slice 1 of cell 1 inside a 10-minute span."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_83",
+    "conversation": [
+      "Aim to raise DL throughput by 5% on cell 1 slice 1 within the next ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_84",
+    "conversation": [
+      "Ensure a five percent dlThroughput boost for slice 1 (cell 1) by the end of 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_85",
+    "conversation": [
+      "Execute a 5% enhancement of downlink throughput on slice 1 in cell 1 over ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_86",
+    "conversation": [
+      "Push DL throughput up 5% for cell 1's slice 1 within 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_87",
+    "conversation": [
+      "Bring dlThroughput up by five percent on slice 1 of cell 1 in a 10-minute interval."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_88",
+    "conversation": [
+      "Gain a 5% increase in downlink throughput for cell 1 slice 1 over ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_89",
+    "conversation": [
+      "Realize a five percent DL throughput uplift in slice 1 (cell 1) within 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_90",
+    "conversation": [
+      "Target a 5% upturn in dlThroughput for cell 1’s slice 1 inside ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_91",
+    "conversation": [
+      "Achieve 5% higher downlink throughput on slice 1 under cell 1 within 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_92",
+    "conversation": [
+      "Elevate DL throughput by five percent for cell 1 slice 1 during the 10-minute window."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_93",
+    "conversation": [
+      "Secure 5% more dlThroughput on slice 1 (cell 1) in ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_94",
+    "conversation": [
+      "Deliver a five percent increase in downlink throughput for the first slice of cell 1 within 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_95",
+    "conversation": [
+      "Reach a 5% DL throughput gain on cell 1 slice 1 across a 10-minute span."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_96",
+    "conversation": [
+      "Raise downlink data rate by 5% on slice 1 in cell 1 within 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_97",
+    "conversation": [
+      "Attain a five percent dlThroughput rise for slice 1 (cell 1) over ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_98",
+    "conversation": [
+      "Drive DL throughput 5% higher for slice 1 of cell 1 inside 10 minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_99",
+    "conversation": [
+      "Improve downlink throughput by five percent on cell 1’s slice 1 within ten minutes."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  },
+  {
+    "id": "sla_slice_100",
+    "conversation": [
+      "By ten minutes, ensure slice 1 of cell 1 achieves a 5% dlThroughput increase."
+    ],
+    "expected_intent": {
+      "IntentSpecification": "slaSliceSpec",
+      "characteristics": {
+        "TargetCondition": "IncreasePercent",
+        "TargetValue": "5%",
+        "Period": "10 minutes",
+        "TargetScope": "Cell_1_Slice_1",
+        "ServiceExperience": "dlThroughput"
+      }
+    }
+  }
+]
