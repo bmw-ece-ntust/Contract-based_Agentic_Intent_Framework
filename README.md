@@ -91,5 +91,13 @@ Application logs are stored in the `logs/` directory:
 - `logs/application.log` - Main application logs
 
 
-
+If you use this software, please cite it as:
+```bibtex
+@misc{contract_based_agentic_intent_framework,
+ title = {Contract-based Agentic Intent Framework for Network Slicing in O-RAN},
+ author = {Fransiscus Asisi Bimo and Chun-Kai Lai and Zhi-Yuan Yang and Ray-Guang Cheng},
+ note = {[https://nvlabs.github.io/sionna/](https://github.com/bmw-ece-ntust/Contract-based_Agentic_Intent_Framework)},
+ year = {2026}
+}
+```
 
