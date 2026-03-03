@@ -92,4 +92,19 @@ Application logs are stored in the `logs/` directory:
 
 
 
+## Citation
+
+If you use NVIDIA Aerial™ CUDA-Accelerated RAN in your research, please cite:
+
+```bibtex
+@misc{bimo2026contractbasedagenticintentframework,
+      title={Contract-based Agentic Intent Framework for Network Slicing in O-RAN}, 
+      author={Fransiscus Asisi Bimo and Chun-Kai Lai and Zhi-Yuan Yang and Ray-Guang Cheng},
+      year={2026},
+      eprint={2603.01663},
+      archivePrefix={arXiv},
+      primaryClass={cs.NI},
+      url={https://arxiv.org/abs/2603.01663}, 
+}
+```
 
